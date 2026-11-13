@@ -1,0 +1,3 @@
+sem citação | encaminhamento fixa | Não posso dizer se o alimento pode ser doado ou consumido, nem decidir sobre esse caso. Procure a vigilância sanitária do município.
+com citação | encaminhamento fixa | Não posso dizer se o alimento pode ser doado ou consumido, nem decidir sobre esse caso. Procure a vigilância sanitária do município.
+pergunta comum | respondida gerada ['T-072']

@@ -1,0 +1,44 @@
+{
+ "k": 6,
+ "tau": 0.860939,
+ "ambiente": {
+  "momento": "2026-11-10T10:22:05",
+  "maquina": "Windows-11-10.0.26200-SP0",
+  "processador": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+  "python": "3.14.4",
+  "torch": "2.15.0+cpu",
+  "faiss": "1.15.1",
+  "modelo_embedding": "intfloat/multilingual-e5-small",
+  "revisao_embedding": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+  "dispositivo": "cpu"
+ },
+ "aviso": "Medição única no TESTE com o k e o τ escolhidos no desenvolvimento. Resultado REAL em CPU; só a busca (sem LLM).",
+ "busca_T1": {
+  "n": 13,
+  "hit@1": 0.3077,
+  "hit@6": 0.6154,
+  "MRR@6": 0.4167
+ },
+ "busca_T2": {
+  "n": 5,
+  "hit@1": 0.2,
+  "hit@6": 0.4,
+  "MRR@6": 0.25
+ },
+ "busca_T1+T2": {
+  "n": 18,
+  "hit@1": 0.2778,
+  "hit@6": 0.5556,
+  "MRR@6": 0.3704
+ },
+ "busca_T8": {
+  "n": 30,
+  "hit@1": 0.3333,
+  "hit@6": 0.7667,
+  "MRR@6": 0.4817
+ },
+ "efeito_tau": {
+  "T1T2_acima_de_tau": "16/18",
+  "T4T5_abaixo_de_tau": "4/5"
+ }
+}

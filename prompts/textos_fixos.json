@@ -1,0 +1,20 @@
+{
+ "descricao": "Textos fixos das rotas que NÃO chamam o LLM (recusa, injeção, abstenção, encaminhamento sem trecho). Mesma política de recusa da PLN (02_MATERIAS/PLN/DESENVOLVIMENTO.md §2.7 e revisao/prompts/perguntas_recusa.json): os órgãos de encaminhamento usam a mesma redação do campo 'orientacao' da PLN. Revisão humana antes da entrega (DESENVOLVIMENTO §2.8, item 4). APROVADOS sem mudança por Leonardo Melo, RM 567097, em 2026-11-10 (DEC-030; avaliacao/APROVACAO_GENAI_preenchida.xlsx).",
+ "recusa_fora_do_tema": {
+  "geral": "Desculpe, esse assunto está fora do que eu posso responder. Eu só tiro dúvidas sobre doação segura de alimentos, com base em documentos oficiais: a Lei nº 15.224/2025, a RDC ANVISA nº 216/2004 e dois guias da ANVISA. Você pode perguntar, por exemplo, como conservar ou transportar um lote de doação.",
+  "fomezero": "Pontos, Selo Verde ESG e CO₂ evitado (kg CO₂eq) seguem as regras do próprio FOMEZERO, e este assistente não informa esses valores. O Selo Verde ESG é do FOMEZERO e não é o Selo Doador de Alimentos da Lei nº 15.224/2025. Aqui eu tiro dúvidas sobre doação segura de alimentos, com base em documentos oficiais."
+ },
+ "recusa_seguranca": "Não posso atender a esse pedido. Eu sigo sempre as mesmas regras: respondo só com base nos documentos oficiais e não decido se um alimento pode ser doado ou consumido. Se tiver uma dúvida sobre doação segura de alimentos, faça a pergunta de novo.",
+ "abstencao": "Não encontrei essa informação nos documentos consultados (Lei nº 15.224/2025, RDC ANVISA nº 216/2004, Guia ANVISA nº 57/2022 e Guia de Boas Práticas para Bancos de Alimentos). Para esse caso, procure a vigilância sanitária do município.",
+ "abstencao_motivo": "os documentos consultados não trazem essa informação",
+ "encaminhamento_sem_trecho": "Não posso dizer se o alimento pode ser doado ou consumido, nem decidir sobre esse caso. Procure {orgao}.",
+ "encaminhamento_frase_final": "Para decidir sobre o seu caso, procure {orgao}.",
+ "extrativa": "Não consegui resumir os documentos com segurança. Veja abaixo os trechos oficiais mais próximos da sua pergunta.",
+ "orgaos": {
+  "decisao": {"orgao": "a vigilância sanitária do município", "motivo": "a pergunta pede uma decisão sobre a segurança ou a doação de um alimento concreto"},
+  "saude": {"orgao": "um serviço de saúde ou um médico, para a pessoa, e a vigilância sanitária do município, para o caso", "motivo": "a pergunta envolve a saúde de uma pessoa"},
+  "juridico": {"orgao": "um advogado ou a Defensoria Pública", "motivo": "a pergunta envolve responsabilidade jurídica"},
+  "profissional": {"orgao": "um profissional legalmente habilitado", "motivo": "a pergunta pede um documento ou avaliação que cabe a um profissional legalmente habilitado (Lei nº 15.224/2025, art. 14, § 1º)"},
+  "autorizacao": {"orgao": "a vigilância sanitária do município", "motivo": "a pergunta envolve autorização ou regularização sanitária"}
+ }
+}

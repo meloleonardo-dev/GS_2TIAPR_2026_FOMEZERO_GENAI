@@ -1,0 +1,5 @@
+# Mantém LF no repositório e nos clones (o Colab é Linux; evita diferença de hash em arquivos de texto)
+* text=auto eol=lf
+*.png binary
+*.pdf binary
+*.xlsx binary

@@ -1,0 +1,360 @@
+{
+ "_descricao": "Conjunto de teste da GENAI (DESENVOLVIMENTO §2.7.1, DL-GENAI-08), gerado por avaliacao/construir_conjunto_teste.py. T1 a T6 são RASCUNHO para aprovação do revisor humano (Leonardo Melo, RM 567097). Divisão: 1/3 de T1, T3, T4, T5, T6 em desenvolvimento (semente 42); T2 segue a T1 de origem; T7 e T8 só teste. TAR-008 (DEC-028): mais 40 perguntas só de desenvolvimento (T1-21 a T1-40, T2-07 a T2-11, T4-06 a T4-13, T5-06 a T5-12) para escolher k e calibrar τ. TAR-009 (DEC-030): T1 a T6 aprovadas por Leonardo Melo, RM 567097 em 2026-11-10 (avaliacao/APROVACAO_GENAI_preenchida.xlsx), com a remoção de T4-03 (teste) e T4-07 (desenvolvimento).",
+ "sobreposicao_novas_x_teste_e_corpus_qa": {
+  "regra": "alerta se texto igual, Jaccard de palavras >= 0,6 ou cosseno e5 >= 0,95",
+  "comparadas_com": 185,
+  "alertas": [],
+  "maior_jaccard": 0.5,
+  "maior_cosseno": 0.9421,
+  "por_pergunta": [
+   {
+    "id": "T1-21",
+    "igual": false,
+    "jaccard_max": 0.227,
+    "jaccard_com": "Quais são os critérios para garantir a segurança sanitária dos alimentos doados?",
+    "cosseno_max": 0.9049,
+    "cosseno_com": "Como as instituições podem colaborar para reduzir o desperdício de alimentos?"
+   },
+   {
+    "id": "T1-22",
+    "igual": false,
+    "jaccard_max": 0.235,
+    "jaccard_com": "Quem pode receber diretamente a doação de alimentos?",
+    "cosseno_max": 0.9084,
+    "cosseno_com": "Como as pessoas que estão em contato com as doações devem se apresentar?"
+   },
+   {
+    "id": "T1-23",
+    "igual": false,
+    "jaccard_max": 0.316,
+    "jaccard_com": "Os bancos de alimentos precisam seguir regras específicas para garantir a segurança dos alimentos?",
+    "cosseno_max": 0.9034,
+    "cosseno_com": "Quais são as recomendações para doações de refeições prontas para o consumo?"
+   },
+   {
+    "id": "T1-24",
+    "igual": false,
+    "jaccard_max": 0.286,
+    "jaccard_com": "O que é rotulagem de alimentos?",
+    "cosseno_max": 0.9146,
+    "cosseno_com": "Quanto tempo deve durar a lavagem das mãos de quem manipula alimentos?"
+   },
+   {
+    "id": "T1-25",
+    "igual": false,
+    "jaccard_max": 0.231,
+    "jaccard_com": "Os manipuladores devem usar uniformes todos os dias?",
+    "cosseno_max": 0.9367,
+    "cosseno_com": "Quanto tempo deve durar a lavagem das mãos de quem manipula alimentos?"
+   },
+   {
+    "id": "T1-26",
+    "igual": false,
+    "jaccard_max": 0.267,
+    "jaccard_com": "Como manter as instalações seguras para doações de alimentos?",
+    "cosseno_max": 0.9195,
+    "cosseno_com": "Como deve ser a ventilação do local onde são preparados os alimentos?"
+   },
+   {
+    "id": "T1-27",
+    "igual": false,
+    "jaccard_max": 0.294,
+    "jaccard_com": "O que devo fazer antes de doar alimentos?",
+    "cosseno_max": 0.9034,
+    "cosseno_com": "O que devo fazer antes de doar alimentos?"
+   },
+   {
+    "id": "T1-28",
+    "igual": false,
+    "jaccard_max": 0.312,
+    "jaccard_com": "O que é um doador de alimentos?",
+    "cosseno_max": 0.9212,
+    "cosseno_com": "O que devo fazer se o alimento não estiver em sua embalagem original?"
+   },
+   {
+    "id": "T1-29",
+    "igual": false,
+    "jaccard_max": 0.208,
+    "jaccard_com": "O que o guia da ANVISA diz sobre pães, biscoitos e bolos com mofo ou bolor?",
+    "cosseno_max": 0.8933,
+    "cosseno_com": "O que é um doador de alimentos?"
+   },
+   {
+    "id": "T1-30",
+    "igual": false,
+    "jaccard_max": 0.167,
+    "jaccard_com": "Como posso garantir que um alimento em lata está seguro para doação?",
+    "cosseno_max": 0.896,
+    "cosseno_com": "O que é necessário para garantir a segurança dos alimentos durante a doação?"
+   },
+   {
+    "id": "T1-31",
+    "igual": false,
+    "jaccard_max": 0.421,
+    "jaccard_com": "O que o guia da ANVISA diz sobre pães, biscoitos e bolos com mofo ou bolor?",
+    "cosseno_max": 0.8876,
+    "cosseno_com": "O que o guia da ANVISA diz sobre pães, biscoitos e bolos com mofo ou bolor?"
+   },
+   {
+    "id": "T1-32",
+    "igual": false,
+    "jaccard_max": 0.222,
+    "jaccard_com": "O que deve ser feito nas instalações sanitárias para garantir a higiene?",
+    "cosseno_max": 0.924,
+    "cosseno_com": "Qual termômetro é recomendado para medir a temperatura de alimentos quentes durante a conservação?"
+   },
+   {
+    "id": "T1-33",
+    "igual": false,
+    "jaccard_max": 0.2,
+    "jaccard_com": "Uma pessoa passou mal depois de comer a doação. O que eu faço?",
+    "cosseno_max": 0.9085,
+    "cosseno_com": "Quais informações devem estar nas etiquetas das doações?"
+   },
+   {
+    "id": "T1-34",
+    "igual": false,
+    "jaccard_max": 0.19,
+    "jaccard_com": "O alimento ficou fora da geladeira por algumas horas. Dá para doar?",
+    "cosseno_max": 0.9319,
+    "cosseno_com": "Quais são as recomendações para doações de refeições prontas para o consumo?"
+   },
+   {
+    "id": "T1-35",
+    "igual": false,
+    "jaccard_max": 0.263,
+    "jaccard_com": "Como as pessoas que estão em contato com as doações devem se apresentar?",
+    "cosseno_max": 0.9391,
+    "cosseno_com": "O que o intermediário deve fazer quando recebe uma doação?"
+   },
+   {
+    "id": "T1-36",
+    "igual": false,
+    "jaccard_max": 0.214,
+    "jaccard_com": "como eu levo as doaçoes no carro sem contaminar?",
+    "cosseno_max": 0.9338,
+    "cosseno_com": "Como garantir que o ambiente de doação de alimentos esteja higiênico?"
+   },
+   {
+    "id": "T1-37",
+    "igual": false,
+    "jaccard_max": 0.2,
+    "jaccard_com": "O que devo fazer se observar mofo em um pão antes de doá-lo?",
+    "cosseno_max": 0.8756,
+    "cosseno_com": "Qual termômetro é recomendado para medir a temperatura de alimentos quentes durante a conservação?"
+   },
+   {
+    "id": "T1-38",
+    "igual": false,
+    "jaccard_max": 0.235,
+    "jaccard_com": "Quais são as entidades que podem receber doações de alimentos?",
+    "cosseno_max": 0.896,
+    "cosseno_com": "O alimento ficou fora da geladeira por algumas horas. Dá para doar?"
+   },
+   {
+    "id": "T1-39",
+    "igual": false,
+    "jaccard_max": 0.25,
+    "jaccard_com": "O que é rotulagem de alimentos?",
+    "cosseno_max": 0.92,
+    "cosseno_com": "Quem são considerados os voluntários mencionados no guia?"
+   },
+   {
+    "id": "T1-40",
+    "igual": false,
+    "jaccard_max": 0.5,
+    "jaccard_com": "O que é um doador de alimentos?",
+    "cosseno_max": 0.8763,
+    "cosseno_com": "O que são bancos de alimentos?"
+   },
+   {
+    "id": "T2-07",
+    "igual": false,
+    "jaccard_max": 0.214,
+    "jaccard_com": "Qual é a temperatura ideal para armazenar hortaliças e frutas?",
+    "cosseno_max": 0.8999,
+    "cosseno_com": "Como garantir que o óleo usado na fritura não cause contaminação nos alimentos?"
+   },
+   {
+    "id": "T2-08",
+    "igual": false,
+    "jaccard_max": 0.235,
+    "jaccard_com": "comida quente tem q fica em q temperatura e por qnto tempo?",
+    "cosseno_max": 0.8877,
+    "cosseno_com": "comida quente tem q fica em q temperatura e por qnto tempo?"
+   },
+   {
+    "id": "T2-09",
+    "igual": false,
+    "jaccard_max": 0.125,
+    "jaccard_com": "comida quente tem q fica em q temperatura e por qnto tempo?",
+    "cosseno_max": 0.8882,
+    "cosseno_com": "Como devo descongelar os alimentos doados para evitar a contaminação?"
+   },
+   {
+    "id": "T2-10",
+    "igual": false,
+    "jaccard_max": 0.143,
+    "jaccard_com": "O que são Boas Práticas em bancos de alimentos?",
+    "cosseno_max": 0.8814,
+    "cosseno_com": "qnto tempo tenho q guardar os registro das boas pratica?"
+   },
+   {
+    "id": "T2-11",
+    "igual": false,
+    "jaccard_max": 0.2,
+    "jaccard_com": "O que é doação direta de alimentos?",
+    "cosseno_max": 0.8993,
+    "cosseno_com": "O alimento ficou fora da geladeira por algumas horas. Dá para doar?"
+   },
+   {
+    "id": "T4-06",
+    "igual": false,
+    "jaccard_max": 0.263,
+    "jaccard_com": "Qual termômetro é recomendado para medir a temperatura de alimentos quentes durante a conservação?",
+    "cosseno_max": 0.9308,
+    "cosseno_com": "Qual termômetro é recomendado para medir a temperatura de alimentos quentes durante a conservação?"
+   },
+   {
+    "id": "T4-08",
+    "igual": false,
+    "jaccard_max": 0.3,
+    "jaccard_com": "O que é necessário para o setor de armazenamento de alimentos no banco de alimentos?",
+    "cosseno_max": 0.8768,
+    "cosseno_com": "O que são bancos de alimentos?"
+   },
+   {
+    "id": "T4-09",
+    "igual": false,
+    "jaccard_max": 0.158,
+    "jaccard_com": "Meu restaurante precisa de alguma autorização para doar comida pronta?",
+    "cosseno_max": 0.8961,
+    "cosseno_com": "Quantos pontos eu ganho no FOMEZERO se doar 10 kg de arroz?"
+   },
+   {
+    "id": "T4-10",
+    "igual": false,
+    "jaccard_max": 0.308,
+    "jaccard_com": "O que é rotulagem de alimentos?",
+    "cosseno_max": 0.9261,
+    "cosseno_com": "O que são bancos de alimentos?"
+   },
+   {
+    "id": "T4-11",
+    "igual": false,
+    "jaccard_max": 0.222,
+    "jaccard_com": "Qual é a importância do Manual de Boas Práticas para bancos de alimentos?",
+    "cosseno_max": 0.8685,
+    "cosseno_com": "Quantas calorias tem uma marmita de arroz, feijão e frango?"
+   },
+   {
+    "id": "T4-12",
+    "igual": false,
+    "jaccard_max": 0.286,
+    "jaccard_com": "O que é um doador de alimentos?",
+    "cosseno_max": 0.8969,
+    "cosseno_com": "Quantos pontos eu ganho no FOMEZERO se doar 10 kg de arroz?"
+   },
+   {
+    "id": "T4-13",
+    "igual": false,
+    "jaccard_max": 0.071,
+    "jaccard_com": "Quem são considerados os voluntários mencionados no guia?",
+    "cosseno_max": 0.8743,
+    "cosseno_com": "Quem pode realizar a doação de alimentos de forma indireta?"
+   },
+   {
+    "id": "T5-06",
+    "igual": false,
+    "jaccard_max": 0.133,
+    "jaccard_com": "Quantas calorias tem uma marmita de arroz, feijão e frango?",
+    "cosseno_max": 0.886,
+    "cosseno_com": "O que o guia da ANVISA diz sobre pães, biscoitos e bolos com mofo ou bolor?"
+   },
+   {
+    "id": "T5-07",
+    "igual": false,
+    "jaccard_max": 0.2,
+    "jaccard_com": "O que devo incluir no rótulo dos alimentos doados?",
+    "cosseno_max": 0.8511,
+    "cosseno_com": "Como posso garantir que os colaboradores do banco de alimentos estejam atualizados sobre as boas práticas de manipulação de alimentos?"
+   },
+   {
+    "id": "T5-08",
+    "igual": false,
+    "jaccard_max": 0.143,
+    "jaccard_com": "Quem ganhou o jogo de futebol ontem?",
+    "cosseno_max": 0.8704,
+    "cosseno_com": "Quem ganhou o jogo de futebol ontem?"
+   },
+   {
+    "id": "T5-09",
+    "igual": false,
+    "jaccard_max": 0.167,
+    "jaccard_com": "Por quanto tempo vale o Selo Doador de Alimentos?",
+    "cosseno_max": 0.8557,
+    "cosseno_com": "Em qual investimento devo aplicar o dinheiro da minha loja?"
+   },
+   {
+    "id": "T5-10",
+    "igual": false,
+    "jaccard_max": 0.333,
+    "jaccard_com": "Quantos pontos e qual Selo Verde ESG eu ganho se doar pães hoje?",
+    "cosseno_max": 0.9421,
+    "cosseno_com": "Quantos pontos e qual Selo Verde ESG eu ganho se doar pães hoje?"
+   },
+   {
+    "id": "T5-11",
+    "igual": false,
+    "jaccard_max": 0.333,
+    "jaccard_com": "Qual é a definição de Instituição beneficiária?",
+    "cosseno_max": 0.8794,
+    "cosseno_com": "Quanto CO₂ evitado eu gero doando 5 kg de pão?"
+   },
+   {
+    "id": "T5-12",
+    "igual": false,
+    "jaccard_max": 0.15,
+    "jaccard_com": "Qual é a importância do Manual de Boas Práticas para bancos de alimentos?",
+    "cosseno_max": 0.8678,
+    "cosseno_com": "O que devo fazer para garantir a higiene dos utensílios usados para servir alimentos?"
+   }
+  ]
+ },
+ "contagem": {
+  "T1": 40,
+  "T2": 11,
+  "T3": 6,
+  "T4": 11,
+  "T5": 12,
+  "T6": 5,
+  "T7": 12,
+  "T8": 30
+ },
+ "por_split": {
+  "desenvolvimento": {
+   "T1": 27,
+   "T2": 6,
+   "T3": 2,
+   "T4": 9,
+   "T5": 9,
+   "T6": 2
+  },
+  "teste": {
+   "T1": 13,
+   "T2": 5,
+   "T3": 4,
+   "T4": 2,
+   "T5": 3,
+   "T6": 3,
+   "T7": 12,
+   "T8": 30
+  }
+ },
+ "T8_cotas_por_fonte": {
+  "D4_Guia_ANVISA_Boas_Praticas_Bancos_Alimentos.pdf": 5,
+  "D2_RDC_ANVISA_216_2004.html": 4,
+  "D3_Guia_ANVISA_57_2022_Doacao_Alimentos_v1.pdf": 20,
+  "D1_Lei_15224_2025.htm": 1
+ }
+}

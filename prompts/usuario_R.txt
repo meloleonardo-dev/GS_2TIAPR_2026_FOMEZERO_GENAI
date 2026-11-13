@@ -1,0 +1,4 @@
+TRECHOS:
+<<CONTEXTO>>
+<<INSTRUCAO_ROTA>>
+<pergunta><<PERGUNTA>></pergunta>

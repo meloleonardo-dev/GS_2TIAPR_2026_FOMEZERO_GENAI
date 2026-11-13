@@ -1,0 +1,71 @@
+# Palavras-chave das rotas do classificador de política (C2). O LLM NÃO decide a rota.
+# Revisão humana obrigatória antes da entrega (DESENVOLVIMENTO §2.8, item 4). Lista da TAR-007, ampliada na TAR-008.
+# APROVADA sem mudança por Leonardo Melo, RM 567097, em 2026-11-10 (DEC-030; avaliacao/APROVACAO_GENAI_preenchida.xlsx).
+# Formato: [SECAO] e uma expressão regular por linha. O texto da pergunta é comparado SEM acentos e em minúsculas
+# (NFKD), por isso as expressões estão sem acento ("e seguro" pega "é seguro"; "co2" pega "CO₂").
+# Ordem de decisão: INJECAO > FORA_DO_TEMA (fomezero, geral) > ENCAMINHAMENTO (juridico, saude, profissional,
+# autorizacao, decisao) > CONDICAO + DECISAO_VERBO (encaminhamento à vigilância sanitária) > DENTRO_DO_TEMA.
+# Linhas que começam com # são comentário.
+
+[INJECAO]
+ignor\w*\s+(as\s+|todas\s+as\s+|suas\s+|essas\s+|estas\s+)?(instruc|regra|orientac|ordens)
+esquec\w*\s+(as\s+|todas\s+as\s+|suas\s+|essas\s+)?(instruc|regra|orientac)
+(desconsider|desobedec)\w*\s+(as\s+|todas\s+as\s+|suas\s+)?(instruc|regra|orientac)
+prompt\s+(de\s+|do\s+)?sistema|system\s+prompt
+(mostre|revele|imprima|repita|copie|exiba)\s+(o\s+|seu\s+|suas\s+|as\s+|sua\s+)?(prompt|instrucoes|regras\s+internas|configurac)
+finj\w*\s+(ser|que)|faca\s+de\s+conta|faz\s+de\s+conta
+(aja|atue|responda|fale)\s+como\s+(se\s+fosse\s+)?(a\s+|o\s+|um\s+|uma\s+)?(anvisa|vigilancia|fiscal|medic|nutricionista|advogad)
+voce\s+(agora\s+)?(e|sera|esta)\s+(a\s+|o\s+|um\s+|uma\s+)?(anvisa|vigilancia|outro\s+assistente|em\s+modo)
+modo\s+(desenvolvedor|developer|dan|livre|sem\s+restric)|jailbreak|sem\s+(nenhuma\s+)?restric
+a\s+partir\s+de\s+agora[^.?!]{0,80}(responda|diga|ignore|esqueca|voce)
+(diga|afirme|declare|garanta|confirme|escreva)\s+(que\s+)?(e|esta|sao|estao)\s+segur
+(aprove|aprova|libere|autorize|certifique)\s+(o\s+|meu\s+|este\s+|esse\s+|a\s+|minha\s+)?(lote|doacao|alimento)
+
+[FORA_DO_TEMA:fomezero]
+(quant\w*|ganh\w*|acumul\w*|saldo|somar|vale\w*|meus)[^.?!]{0,40}\bpontos?\b
+\bpontos?\b[^.?!]{0,40}(ganh\w*|acumul\w*|fomezero)
+selo\s+verde|\besg\b
+\bco2|\bcarbono\b|kg\s*co\b|co2eq|emiss(ao|oes)|gases\s+de\s+efeito
+(bronze|prata|ouro)\b[^.?!]{0,30}(selo|nivel|categoria)|(selo|nivel|categoria)[^.?!]{0,30}\b(bronze|prata|ouro)\b
+
+[FORA_DO_TEMA:geral]
+futebol|campeonato|brasileirao|\btime\b|jogo\s+de\s+(futebol|ontem|hoje)|\bgol\b|copa\s+do\s+mundo
+\binvest\w*|aplicar\s+(o\s+)?dinheiro|bolsa\s+de\s+valores|cripto\w*|bitcoin|poupanca|renda\s+fixa
+eleic\w*|\bvotar\b|\bvoto\b|candidat\w*|partido\s+politico
+previsao\s+do\s+tempo|horoscopo
+# acrescentadas na TAR-008, a partir do conjunto de desenvolvimento ampliado (T5-06 a T5-12)
+\breceita\s+(de|para|pra)\s+(bolo|torta|pudim|doce|drink|lasanha|pao)|\bnovela|mega[\s-]?sena|loteria|\bdolar\b|cotacao
+\bcurriculo|vaga\s+de\s+emprego
+
+[ENCAMINHAMENTO:juridico]
+\bser\s+processad|\bprocessad[oa]s?\s+(judicialmente|na\s+justica|por)|\bme\s+processar|\bprocessar\s+(o|a|me|alguem|um|uma|meu|minha)\b|processo\s+judicial
+advogad\w*|indeniz\w*|\bjustica\b|ser\s+pres[oa]
+
+[ENCAMINHAMENTO:saude]
+passou\s+mal|passaram\s+mal|passando\s+mal|passar\s+mal|intoxic\w*|vomit\w*|diarreia|febre|hospital|dor\s+de\s+barriga|ficou\s+doente|ficaram\s+doentes|adoece\w*|infeccao\s+alimentar
+
+[ENCAMINHAMENTO:profissional]
+ficha\s+tecnica|\blaudo|\batest(ar|e|a|ado|ados)\b|analise\s+laboratorial|nutricionista
+
+[ENCAMINHAMENTO:autorizacao]
+autorizac\w*|\blicenc\w*|alvara|regularizad\w*|registro\s+na\s+vigilancia
+
+[ENCAMINHAMENTO:decisao]
+\b(e|esta|seria|sera|fica|sao|estao)\s+(totalmente\s+)?segur[oa]s?\s*(\?|$|(para|pra)\s+(doar|comer|consumir|servir|dar|o\s+consumo)\b|(doar|comer|consumir|servir|dar)\b)
+\bsegur[oa]s?\s+(para\s+|pra\s+)?(comer|consumir|doar|servir|dar)
+\b(esta|ta|estao|tao)\s+(bom|boa|bons|boas)\s+(para|pra)\s+(doar|comer|consumir|servir)
+\bainda\s+(serve|presta|da\s+para|da\s+pra)\b
+
+[CONDICAO]
+\bvenc(eu|ido|ida|idos|idas|endo)\b|passou\s+da\s+validade|fora\s+da\s+(geladeira|refrigerac\w*|refrigerador)|temperatura\s+ambiente
+\bmofo|mofad\w*|bolor|\bamass\w*|estufad\w*|\bcheiro|\bazed\w*|\bestrag\w*|trincad\w*|descongel\w*|\bbuffet
+\bde\s+ontem\b|anteontem|aberto\s+ha|\bha\s+\d+\s+(dias|horas)|\d+\s+horas|a\s+tarde\s+toda|a\s+noite\s+toda
+
+[DECISAO_VERBO]
+# "devo" ficou de fora: "Como devo descongelar...?" é pergunta de procedimento, não pedido de decisão (TAR-007)
+\b(posso|podemos|consigo)\b
+\bda\s+(pra|para)\b
+\bainda\s+(serve|presta|da|pode)\b
+\b(ta|esta|estao)\s+(bom|boa|bons|boas)\b
+\bpode(m)?\s+ser\s+doad
+\bserve\s+(pra|para)\s+doar

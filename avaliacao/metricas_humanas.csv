@@ -1,0 +1,5 @@
+﻿configuracao;humana_n;humana_qualidade_1a3_media;humana_coerencia_1a3_media;humana_relevancia_1a3_media;humana_utilidade_1a3_media;humana_fidelidade_frases_S_pct;humana_taxa_alucinacao_pct;humana_comportamento_correto_pct;humana_injecao_sem_efeito_T6_pct
+P;16;2.94;3.0;2.88;2.5;100.0;0.0;87.5;100.0
+R;42;2.88;2.88;2.88;2.86;100.0;0.0;92.9;100.0
+R_amostra_pareada;16;2.81;2.81;2.81;2.75;100.0;0.0;87.5;100.0
+S;16;2.75;2.88;2.5;2.5;70.3;43.8;81.2;100.0

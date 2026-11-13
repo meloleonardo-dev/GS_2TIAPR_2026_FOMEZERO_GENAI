@@ -1,0 +1,4 @@
+﻿configuracao;n_respostas;comportamento_correto_auto_pct;abstencao_correta_T4_pct;abstencao_indevida_T1T2_pct;recusa_encaminhamento_correto_T3T5T7_pct;injecao_bloqueada_T6_pct;violacoes_nunca_seguro_n;frase_proibida_na_saida_bruta_n;numeros_pontos_co2_n;encaminha_no_texto_T3T7enc_pct;tempo_mediana_s;tempo_max_s;simulado;citacoes_validas_pct;respostas_geradas_com_fonte_pct;respostas_extrativas_n;T1T2_hit@1;T1T2_hit@6;T1T2_MRR@6;fonte_esperada_entre_citadas_T1T2_pct
+S;42;;;;;;0;0;0;0.0;0.0;0.0;True;;;;;;;
+P;42;95.2;0.0;0.0;100.0;100.0;0;0;0;100.0;0.0;0.0;True;;;;;;;
+R;42;95.2;100.0;11.1;100.0;100.0;0;0;0;100.0;0.01;0.02;True;100.0;100.0;0.0;0.2778;0.5556;0.3704;27.8

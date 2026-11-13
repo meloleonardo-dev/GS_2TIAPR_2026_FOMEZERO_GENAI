@@ -1,0 +1,2 @@
+<<INSTRUCAO_ROTA>>
+<pergunta><<PERGUNTA>></pergunta>

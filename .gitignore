@@ -1,0 +1,12 @@
+# Ambiente e caches locais (não vão para o repositório)
+.venv/
+.cache_hf/
+__pycache__/
+.ipynb_checkpoints/
+# Índice FAISS e subtrechos: regenerados pelo notebook (N3); subtrechos.jsonl repetiria o texto do corpus da PLN
+indice/
+# Segredos (o projeto não usa chave de API; se um dia usar, fica só em .env ou Colab Secrets)
+.env
+.env.*
+# Pasta temporária dos testes locais
+evidencias/_tmp_testes/

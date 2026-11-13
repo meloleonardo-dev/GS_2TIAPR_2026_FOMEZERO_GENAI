@@ -1,0 +1,617 @@
+{
+ "regra_k": "menor k cujo hit@k fica a no máximo 1 pergunta do melhor (candidatos 4, 6, 8)",
+ "n_positivas_com_ouro": 33,
+ "tabela_k": {
+  "4": {
+   "n": 33,
+   "hit@1": 0.4242,
+   "hit@4": 0.6667,
+   "MRR@4": 0.5253
+  },
+  "6": {
+   "n": 33,
+   "hit@1": 0.4242,
+   "hit@6": 0.7576,
+   "MRR@6": 0.5414
+  },
+  "8": {
+   "n": 33,
+   "hit@1": 0.4242,
+   "hit@8": 0.7879,
+   "MRR@8": 0.5457
+  }
+ },
+ "k_escolhido": 6,
+ "tau": {
+  "tau": 0.860939,
+  "custo": 6.0,
+  "falso_respondida": 2,
+  "abstencao_indevida": 2,
+  "n_positivos": 33,
+  "n_negativos": 18,
+  "peso_falso_respondida": 2.0
+ },
+ "curva_tau": [
+  {
+   "tau": 0.815648,
+   "falso_respondida": 18,
+   "abstencao_indevida": 0,
+   "custo": 36.0
+  },
+  {
+   "tau": 0.816737,
+   "falso_respondida": 17,
+   "abstencao_indevida": 0,
+   "custo": 34.0
+  },
+  {
+   "tau": 0.818977,
+   "falso_respondida": 16,
+   "abstencao_indevida": 0,
+   "custo": 32.0
+  },
+  {
+   "tau": 0.82263,
+   "falso_respondida": 15,
+   "abstencao_indevida": 0,
+   "custo": 30.0
+  },
+  {
+   "tau": 0.826831,
+   "falso_respondida": 14,
+   "abstencao_indevida": 0,
+   "custo": 28.0
+  },
+  {
+   "tau": 0.829118,
+   "falso_respondida": 13,
+   "abstencao_indevida": 0,
+   "custo": 26.0
+  },
+  {
+   "tau": 0.829921,
+   "falso_respondida": 12,
+   "abstencao_indevida": 0,
+   "custo": 24.0
+  },
+  {
+   "tau": 0.834466,
+   "falso_respondida": 11,
+   "abstencao_indevida": 0,
+   "custo": 22.0
+  },
+  {
+   "tau": 0.838834,
+   "falso_respondida": 10,
+   "abstencao_indevida": 0,
+   "custo": 20.0
+  },
+  {
+   "tau": 0.841437,
+   "falso_respondida": 9,
+   "abstencao_indevida": 0,
+   "custo": 18.0
+  },
+  {
+   "tau": 0.844854,
+   "falso_respondida": 8,
+   "abstencao_indevida": 0,
+   "custo": 16.0
+  },
+  {
+   "tau": 0.846869,
+   "falso_respondida": 7,
+   "abstencao_indevida": 0,
+   "custo": 14.0
+  },
+  {
+   "tau": 0.848842,
+   "falso_respondida": 6,
+   "abstencao_indevida": 0,
+   "custo": 12.0
+  },
+  {
+   "tau": 0.849914,
+   "falso_respondida": 6,
+   "abstencao_indevida": 1,
+   "custo": 13.0
+  },
+  {
+   "tau": 0.853855,
+   "falso_respondida": 5,
+   "abstencao_indevida": 1,
+   "custo": 11.0
+  },
+  {
+   "tau": 0.857715,
+   "falso_respondida": 5,
+   "abstencao_indevida": 2,
+   "custo": 12.0
+  },
+  {
+   "tau": 0.85892,
+   "falso_respondida": 4,
+   "abstencao_indevida": 2,
+   "custo": 10.0
+  },
+  {
+   "tau": 0.860404,
+   "falso_respondida": 3,
+   "abstencao_indevida": 2,
+   "custo": 8.0
+  },
+  {
+   "tau": 0.860939,
+   "falso_respondida": 2,
+   "abstencao_indevida": 2,
+   "custo": 6.0
+  },
+  {
+   "tau": 0.8619,
+   "falso_respondida": 2,
+   "abstencao_indevida": 3,
+   "custo": 7.0
+  },
+  {
+   "tau": 0.863148,
+   "falso_respondida": 2,
+   "abstencao_indevida": 4,
+   "custo": 8.0
+  },
+  {
+   "tau": 0.86356,
+   "falso_respondida": 2,
+   "abstencao_indevida": 5,
+   "custo": 9.0
+  },
+  {
+   "tau": 0.864109,
+   "falso_respondida": 2,
+   "abstencao_indevida": 6,
+   "custo": 10.0
+  },
+  {
+   "tau": 0.865098,
+   "falso_respondida": 2,
+   "abstencao_indevida": 7,
+   "custo": 11.0
+  },
+  {
+   "tau": 0.866542,
+   "falso_respondida": 1,
+   "abstencao_indevida": 7,
+   "custo": 9.0
+  },
+  {
+   "tau": 0.868431,
+   "falso_respondida": 1,
+   "abstencao_indevida": 8,
+   "custo": 10.0
+  },
+  {
+   "tau": 0.869552,
+   "falso_respondida": 1,
+   "abstencao_indevida": 9,
+   "custo": 11.0
+  },
+  {
+   "tau": 0.870038,
+   "falso_respondida": 1,
+   "abstencao_indevida": 10,
+   "custo": 12.0
+  },
+  {
+   "tau": 0.87064,
+   "falso_respondida": 1,
+   "abstencao_indevida": 11,
+   "custo": 13.0
+  },
+  {
+   "tau": 0.872406,
+   "falso_respondida": 1,
+   "abstencao_indevida": 12,
+   "custo": 14.0
+  },
+  {
+   "tau": 0.874524,
+   "falso_respondida": 1,
+   "abstencao_indevida": 13,
+   "custo": 15.0
+  },
+  {
+   "tau": 0.875558,
+   "falso_respondida": 1,
+   "abstencao_indevida": 14,
+   "custo": 16.0
+  },
+  {
+   "tau": 0.876939,
+   "falso_respondida": 1,
+   "abstencao_indevida": 15,
+   "custo": 17.0
+  },
+  {
+   "tau": 0.87847,
+   "falso_respondida": 1,
+   "abstencao_indevida": 16,
+   "custo": 18.0
+  },
+  {
+   "tau": 0.879731,
+   "falso_respondida": 0,
+   "abstencao_indevida": 16,
+   "custo": 16.0
+  },
+  {
+   "tau": 0.883808,
+   "falso_respondida": 0,
+   "abstencao_indevida": 17,
+   "custo": 17.0
+  },
+  {
+   "tau": 0.888638,
+   "falso_respondida": 0,
+   "abstencao_indevida": 18,
+   "custo": 18.0
+  },
+  {
+   "tau": 0.89045,
+   "falso_respondida": 0,
+   "abstencao_indevida": 19,
+   "custo": 19.0
+  },
+  {
+   "tau": 0.890956,
+   "falso_respondida": 0,
+   "abstencao_indevida": 20,
+   "custo": 20.0
+  },
+  {
+   "tau": 0.891957,
+   "falso_respondida": 0,
+   "abstencao_indevida": 21,
+   "custo": 21.0
+  },
+  {
+   "tau": 0.893516,
+   "falso_respondida": 0,
+   "abstencao_indevida": 22,
+   "custo": 22.0
+  },
+  {
+   "tau": 0.8948,
+   "falso_respondida": 0,
+   "abstencao_indevida": 23,
+   "custo": 23.0
+  },
+  {
+   "tau": 0.895432,
+   "falso_respondida": 0,
+   "abstencao_indevida": 24,
+   "custo": 24.0
+  },
+  {
+   "tau": 0.89635,
+   "falso_respondida": 0,
+   "abstencao_indevida": 25,
+   "custo": 25.0
+  },
+  {
+   "tau": 0.897897,
+   "falso_respondida": 0,
+   "abstencao_indevida": 26,
+   "custo": 26.0
+  },
+  {
+   "tau": 0.898845,
+   "falso_respondida": 0,
+   "abstencao_indevida": 27,
+   "custo": 27.0
+  },
+  {
+   "tau": 0.900838,
+   "falso_respondida": 0,
+   "abstencao_indevida": 28,
+   "custo": 28.0
+  },
+  {
+   "tau": 0.904212,
+   "falso_respondida": 0,
+   "abstencao_indevida": 29,
+   "custo": 29.0
+  },
+  {
+   "tau": 0.906121,
+   "falso_respondida": 0,
+   "abstencao_indevida": 30,
+   "custo": 30.0
+  },
+  {
+   "tau": 0.907716,
+   "falso_respondida": 0,
+   "abstencao_indevida": 31,
+   "custo": 31.0
+  },
+  {
+   "tau": 0.910545,
+   "falso_respondida": 0,
+   "abstencao_indevida": 32,
+   "custo": 32.0
+  },
+  {
+   "tau": 0.912073,
+   "falso_respondida": 0,
+   "abstencao_indevida": 33,
+   "custo": 33.0
+  }
+ ],
+ "scores_desenvolvimento": [
+  {
+   "id": "T1-05",
+   "categoria": "T1",
+   "score_max": 0.906414
+  },
+  {
+   "id": "T1-06",
+   "categoria": "T1",
+   "score_max": 0.891136
+  },
+  {
+   "id": "T1-10",
+   "categoria": "T1",
+   "score_max": 0.902596
+  },
+  {
+   "id": "T1-14",
+   "categoria": "T1",
+   "score_max": 0.864607
+  },
+  {
+   "id": "T1-15",
+   "categoria": "T1",
+   "score_max": 0.912072
+  },
+  {
+   "id": "T1-16",
+   "categoria": "T1",
+   "score_max": 0.895517
+  },
+  {
+   "id": "T1-20",
+   "categoria": "T1",
+   "score_max": 0.909018
+  },
+  {
+   "id": "T2-06",
+   "categoria": "T2",
+   "score_max": 0.880464
+  },
+  {
+   "id": "T4-02",
+   "categoria": "T4",
+   "score_max": 0.857896
+  },
+  {
+   "id": "T4-04",
+   "categoria": "T4",
+   "score_max": 0.86559
+  },
+  {
+   "id": "T5-02",
+   "categoria": "T5",
+   "score_max": 0.825131
+  },
+  {
+   "id": "T5-04",
+   "categoria": "T5",
+   "score_max": 0.830136
+  },
+  {
+   "id": "T1-21",
+   "categoria": "T1",
+   "score_max": 0.887152
+  },
+  {
+   "id": "T1-22",
+   "categoria": "T1",
+   "score_max": 0.863611
+  },
+  {
+   "id": "T1-23",
+   "categoria": "T1",
+   "score_max": 0.862786
+  },
+  {
+   "id": "T1-24",
+   "categoria": "T1",
+   "score_max": 0.905828
+  },
+  {
+   "id": "T1-25",
+   "categoria": "T1",
+   "score_max": 0.894254
+  },
+  {
+   "id": "T1-26",
+   "categoria": "T1",
+   "score_max": 0.89908
+  },
+  {
+   "id": "T1-27",
+   "categoria": "T1",
+   "score_max": 0.869737
+  },
+  {
+   "id": "T1-28",
+   "categoria": "T1",
+   "score_max": 0.870338
+  },
+  {
+   "id": "T1-29",
+   "categoria": "T1",
+   "score_max": 0.898611
+  },
+  {
+   "id": "T1-30",
+   "categoria": "T1",
+   "score_max": 0.867495
+  },
+  {
+   "id": "T1-31",
+   "categoria": "T1",
+   "score_max": 0.857534
+  },
+  {
+   "id": "T1-32",
+   "categoria": "T1",
+   "score_max": 0.897182
+  },
+  {
+   "id": "T1-33",
+   "categoria": "T1",
+   "score_max": 0.895347
+  },
+  {
+   "id": "T1-34",
+   "categoria": "T1",
+   "score_max": 0.890776
+  },
+  {
+   "id": "T1-35",
+   "categoria": "T1",
+   "score_max": 0.873869
+  },
+  {
+   "id": "T1-36",
+   "categoria": "T1",
+   "score_max": 0.892778
+  },
+  {
+   "id": "T1-37",
+   "categoria": "T1",
+   "score_max": 0.870943
+  },
+  {
+   "id": "T1-38",
+   "categoria": "T1",
+   "score_max": 0.861013
+  },
+  {
+   "id": "T1-39",
+   "categoria": "T1",
+   "score_max": 0.890124
+  },
+  {
+   "id": "T1-40",
+   "categoria": "T1",
+   "score_max": 0.849652
+  },
+  {
+   "id": "T2-07",
+   "categoria": "T2",
+   "score_max": 0.877942
+  },
+  {
+   "id": "T2-08",
+   "categoria": "T2",
+   "score_max": 0.87518
+  },
+  {
+   "id": "T2-09",
+   "categoria": "T2",
+   "score_max": 0.869367
+  },
+  {
+   "id": "T2-10",
+   "categoria": "T2",
+   "score_max": 0.86351
+  },
+  {
+   "id": "T2-11",
+   "categoria": "T2",
+   "score_max": 0.875937
+  },
+  {
+   "id": "T4-06",
+   "categoria": "T4",
+   "score_max": 0.878998
+  },
+  {
+   "id": "T4-08",
+   "categoria": "T4",
+   "score_max": 0.838871
+  },
+  {
+   "id": "T4-09",
+   "categoria": "T4",
+   "score_max": 0.848033
+  },
+  {
+   "id": "T4-10",
+   "categoria": "T4",
+   "score_max": 0.860865
+  },
+  {
+   "id": "T4-11",
+   "categoria": "T4",
+   "score_max": 0.838797
+  },
+  {
+   "id": "T4-12",
+   "categoria": "T4",
+   "score_max": 0.850176
+  },
+  {
+   "id": "T4-13",
+   "categoria": "T4",
+   "score_max": 0.859943
+  },
+  {
+   "id": "T5-06",
+   "categoria": "T5",
+   "score_max": 0.844002
+  },
+  {
+   "id": "T5-07",
+   "categoria": "T5",
+   "score_max": 0.817825
+  },
+  {
+   "id": "T5-08",
+   "categoria": "T5",
+   "score_max": 0.815649
+  },
+  {
+   "id": "T5-09",
+   "categoria": "T5",
+   "score_max": 0.820129
+  },
+  {
+   "id": "T5-10",
+   "categoria": "T5",
+   "score_max": 0.828531
+  },
+  {
+   "id": "T5-11",
+   "categoria": "T5",
+   "score_max": 0.845705
+  },
+  {
+   "id": "T5-12",
+   "categoria": "T5",
+   "score_max": 0.829705
+  }
+ ],
+ "ambiente": {
+  "momento": "2026-11-10T10:21:42",
+  "maquina": "Windows-11-10.0.26200-SP0",
+  "processador": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+  "python": "3.14.4",
+  "torch": "2.15.0+cpu",
+  "faiss": "1.15.1",
+  "modelo_embedding": "intfloat/multilingual-e5-small",
+  "revisao_embedding": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+  "dispositivo": "cpu"
+ },
+ "aviso": "Resultado REAL da execução local em CPU, só com o conjunto de desenvolvimento."
+}

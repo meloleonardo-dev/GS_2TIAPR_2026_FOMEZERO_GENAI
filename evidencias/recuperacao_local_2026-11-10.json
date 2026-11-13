@@ -1,0 +1,100 @@
+{
+ "momento": "2026-11-10T12:49:44",
+ "ambiente": {
+  "maquina": "Windows-11-10.0.26200-SP0",
+  "processador": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+  "cpus": 12,
+  "python": "3.14.4",
+  "torch": "2.15.0+cpu",
+  "faiss": "1.15.1",
+  "dispositivo": "cpu",
+  "local": true
+ },
+ "modelo_embedding": "intfloat/multilingual-e5-small",
+ "revisao_embedding": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+ "k": 6,
+ "indice": {
+  "vetores": 149,
+  "dimensao": 384,
+  "c3b": {
+   "trechos": 149,
+   "divididos": 0,
+   "tokens_e5_max_original": 466,
+   "tokens_e5_max_subtrecho": 466,
+   "acima_de_512_original": [],
+   "subtrechos": 149,
+   "subtrechos_acima_do_limite": 0
+  }
+ },
+ "tempo_construcao_s": 26.3,
+ "recuperacao": {
+  "T1": {
+   "n": 40,
+   "hit@1": 0.425,
+   "hit@6": 0.75,
+   "MRR@6": 0.5321
+  },
+  "T1+T2": {
+   "n": 51,
+   "hit@1": 0.3725,
+   "hit@6": 0.6863,
+   "MRR@6": 0.481
+  },
+  "T1_desenvolvimento": {
+   "n": 27,
+   "hit@1": 0.4815,
+   "hit@6": 0.8148,
+   "MRR@6": 0.5877
+  },
+  "T1_teste": {
+   "n": 13,
+   "hit@1": 0.3077,
+   "hit@6": 0.6154,
+   "MRR@6": 0.4167
+  },
+  "T2": {
+   "n": 11,
+   "hit@1": 0.1818,
+   "hit@6": 0.4545,
+   "MRR@6": 0.2955
+  },
+  "T2_desenvolvimento": {
+   "n": 6,
+   "hit@1": 0.1667,
+   "hit@6": 0.5,
+   "MRR@6": 0.3333
+  },
+  "T2_teste": {
+   "n": 5,
+   "hit@1": 0.2,
+   "hit@6": 0.4,
+   "MRR@6": 0.25
+  },
+  "T8": {
+   "n": 30,
+   "hit@1": 0.3333,
+   "hit@6": 0.7667,
+   "MRR@6": 0.4817
+  },
+  "T8_teste": {
+   "n": 30,
+   "hit@1": 0.3333,
+   "hit@6": 0.7667,
+   "MRR@6": 0.4817
+  }
+ },
+ "tau": {
+  "tau": 0.860939,
+  "custo": 6.0,
+  "falso_respondida": 2,
+  "abstencao_indevida": 2,
+  "n_positivos": 33,
+  "n_negativos": 18,
+  "peso_falso_respondida": 2.0
+ },
+ "efeito_tau_teste": {
+  "T1T2_teste_acima_de_tau": "16/18",
+  "T4T5_teste_abaixo_de_tau": "4/5"
+ },
+ "aviso": "Resultado REAL da execução local em CPU; o Colab confere depois."
+}

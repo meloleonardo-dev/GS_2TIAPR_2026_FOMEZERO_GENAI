@@ -1,0 +1,14 @@
+# Dependências diretas do Assistente de consulta FOMEZERO (GENAI). Todas gratuitas e de código aberto.
+# Versões testadas localmente em 2026-11-10 (Windows, CPU, Python 3.14); lista completa do ambiente local em
+# requirements-lock.txt. No Colab, torch, numpy e pandas já vêm instalados e não são trocados.
+sentence-transformers==6.2.0
+faiss-cpu==1.15.1
+transformers==5.22.2
+tokenizers==0.23.3
+huggingface_hub==2.4.0
+langchain-core==1.7.6
+gradio==6.31.0
+# Só para o LLM (seção N5) no Google Colab com GPU T4. Não instalados no ambiente local (sem GPU): versões não
+# fixadas; as versões usadas ficam registradas no log (avaliacao/log_chamadas.jsonl, etapa "ambiente").
+accelerate
+bitsandbytes

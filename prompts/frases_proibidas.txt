@@ -1,0 +1,11 @@
+# Frases proibidas: afirmações de que um alimento é seguro (tolerância zero na saída do assistente).
+# MESMA lista do filtro da PLN (05_ENTREGAVEIS/PLN/fabrica/m7_ia.py, PROIBIDAS), DL-GENAI-06.
+# Uma expressão regular por linha, aplicada sem diferença de maiúsculas. O teste local confere que a lista é
+# idêntica à da PLN. Mudar esta lista exige revisão humana (DESENVOLVIMENTO §2.8, item 4) e a mesma mudança na PLN.
+\b(é|está|são|estão|fica|ficam)\s+(totalmente\s+|completamente\s+)?segur[oa]s?\s+(para\s+(o\s+)?)?(consumo|consumir|comer)
+\b(é|está|são|estão)\s+(próprio|própria|próprios|próprias|apto|apta|aptos|aptas)\s+para\s+(o\s+)?consumo
+\bpode(m)?\s+(ser\s+)?(consumid[oa]s?|comid[oa]s?|consumir|comer)\s+sem\s+(nenhum\s+)?risco
+\bsem\s+(nenhum\s+)?risco\s+(à|a|para\s+a)\s+saúde
+\bnão\s+(há|existe|oferece|apresenta)\s+(nenhum\s+)?risco
+\bgaranto\s+que\b
+\bpode\s+(doar|consumir|comer)\s+(tranquil|sem\s+medo|à\s+vontade)
