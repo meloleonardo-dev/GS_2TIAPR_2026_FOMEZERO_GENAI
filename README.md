@@ -38,7 +38,7 @@ video/                      ROTEIRO.md, LINK.md
 testes_locais.py            testes sem GPU (gera evidencias/testes_locais_AAAA-MM-DD.txt)
 ```
 O corpus **não** é copiado para cá. Ele vem da matéria de PLN, que está em outro repositório:
-**[PENDENTE: link do repositório da PLN]**. O notebook lê de `../PLN/corpus/` (o caminho fica num só lugar,
+https://github.com/meloleonardo-dev/GS_2TIAPR_2026_FOMEZERO_PLN. O notebook lê de `../PLN/corpus/` (o caminho fica num só lugar,
 `assistente/config.py`), e a seção N1 confere o SHA-256 dos três arquivos antes de começar.
 
 ## Como executar no Google Colab
