@@ -107,3 +107,7 @@ Implementado e testado localmente (`evidencias/testes_locais_2026-11-10.txt`), e
 (DEC-032) e avaliado por um revisor humano (DEC-033). Resultados em `evidencias/EVIDENCIAS.md` e na documentação
 técnica. Falta: prints da interface `[PENDENTE: prints, a tirar no dia da gravação]`.
 Link do vídeo: `video/LINK.md` `[PENDENTE: gravação]`.
+
+## Outros módulos do FOMEZERO (mesmo grupo)
+- PLN: Fábrica de Corpus (corpus de documentos oficiais sobre doação segura de alimentos): https://github.com/meloleonardo-dev/GS_2TIAPR_2026_FOMEZERO_PLN
+- AIPA: robô pós-entrega (Termo de Doação, CO₂ evitado, pontos e Selo Verde ESG): https://github.com/meloleonardo-dev/GS_2TIAPR_2026_FOMEZERO_AIPA
