@@ -105,7 +105,8 @@ aberta e deve ser usado só na demonstração.
 ## Estado
 Implementado e testado localmente (`evidencias/testes_locais_2026-11-10.txt`), executado no Colab com GPU Tesla T4
 (DEC-032) e avaliado por um revisor humano (DEC-033). Resultados em `evidencias/EVIDENCIAS.md` e na documentação
-técnica. Falta: prints da interface `[PENDENTE: prints, a tirar no dia da gravação]`.
+técnica. Prints da interface em `evidencias/prints/` (8 telas). Integrado ao portal do FOMEZERO (FEMD) pela tela
+"Tirar dúvidas com o assistente".
 Link do vídeo: `video/LINK.md` `[PENDENTE: gravação]`.
 
 ## Outros módulos do FOMEZERO (mesmo grupo)

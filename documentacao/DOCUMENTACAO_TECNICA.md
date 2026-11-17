@@ -165,8 +165,8 @@ doador de alimentos." (`prompts/baseline_S.txt`). Na rota de encaminhamento, a m
 - **GENAI → app do FOMEZERO (CT-02).** O assistente expõe o endpoint `/consultar`, que o app pode chamar com `@gradio/client`
   ou abrir num `iframe`, e grava um modo simulado com 10 respostas reais para quando o Colab não estiver no ar. A
   resposta sempre traz o aviso de validação humana. Formato em `contrato/CT-02_PROPOSTA.md`.
-  **[PENDENTE: forma de integração escolhida pelo grupo para o app do FOMEZERO e campos do lote de doação que o app envia.]**
-- **GENAI → automação pós-entrega.** **[PENDENTE: definir com o grupo se a automação pós-entrega (AIPA) usa o assistente, por exemplo para anexar referências de boas práticas ao Termo de Doação, sem veredito sobre o lote.]**
+  Integrado ao portal do FOMEZERO (módulo FEMD, PR #1 de 16/11/2026): a tela "Tirar dúvidas com o assistente" envia só a pergunta no formato ct02-v0 (nenhum campo do lote de doação) ao endpoint `/consultar` com `@gradio/client` no modo integrado, e usa as 10 respostas gravadas no modo simulado.
+- **GENAI → automação pós-entrega.** Nesta versão, a automação pós-entrega (AIPA) não usa o assistente. Evolução futura possível: anexar referências de boas práticas ao Termo de Doação, sem veredito sobre o lote.
 - **Termos do grupo.** Lote de doação, doador e beneficiário são os mesmos do FOMEZERO. Pontos, Selo Verde ESG
   (Bronze, Prata, Ouro) e CO₂ evitado (kg CO₂eq) são regras do FOMEZERO: o assistente não informa valores.
 
