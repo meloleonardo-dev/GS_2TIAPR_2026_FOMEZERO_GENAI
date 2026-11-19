@@ -1,7 +1,7 @@
 {
  "versao": "ct02-v0",
  "descricao": "Modo simulado do CT-02 (opção T3): respostas gravadas pelo pipeline real do assistente, para a FEMD usar quando o Colab não estiver no ar. Revisão humana antes de ir para a FEMD (DESENVOLVIMENTO §2.8, item 7).",
- "gravado_em": "2026-11-11",
+ "gravado_em": "2026-11-17",
  "gerador": "Qwen/Qwen2.5-7B-Instruct (4 bits NF4)",
  "stub": false,
  "tau": 0.860939,
@@ -78,7 +78,7 @@
      },
      "id_pergunta": null,
      "perfil": "doador",
-     "momento": "2026-11-11T15:34:30",
+     "momento": "2026-11-17T23:52:54",
      "medicao": {
       "frases_proibidas": [],
       "numeros_fomezero": [],
@@ -90,9 +90,9 @@
       "citacoes_invalidas": [],
       "frases_proibidas_brutas": []
      },
-     "tempo_ms": 21142,
-     "gravado_em": "2026-11-11",
-     "rotulo_simulado": "Resposta SIMULADA, gravada em 2026-11-11 pelo pipeline real (Qwen/Qwen2.5-7B-Instruct (4 bits NF4)); não é IA ao vivo."
+     "tempo_ms": 21905,
+     "gravado_em": "2026-11-17",
+     "rotulo_simulado": "Resposta SIMULADA, gravada em 2026-11-17 pelo pipeline real (Qwen/Qwen2.5-7B-Instruct (4 bits NF4)); não é IA ao vivo."
     }
    }
   },
@@ -168,7 +168,7 @@
      },
      "id_pergunta": null,
      "perfil": "doador",
-     "momento": "2026-11-11T15:34:43",
+     "momento": "2026-11-17T23:53:09",
      "medicao": {
       "frases_proibidas": [],
       "numeros_fomezero": [],
@@ -180,9 +180,9 @@
       "citacoes_invalidas": [],
       "frases_proibidas_brutas": []
      },
-     "tempo_ms": 13180,
-     "gravado_em": "2026-11-11",
-     "rotulo_simulado": "Resposta SIMULADA, gravada em 2026-11-11 pelo pipeline real (Qwen/Qwen2.5-7B-Instruct (4 bits NF4)); não é IA ao vivo."
+     "tempo_ms": 14689,
+     "gravado_em": "2026-11-17",
+     "rotulo_simulado": "Resposta SIMULADA, gravada em 2026-11-17 pelo pipeline real (Qwen/Qwen2.5-7B-Instruct (4 bits NF4)); não é IA ao vivo."
     }
    }
   },
@@ -252,7 +252,7 @@
      },
      "id_pergunta": null,
      "perfil": "doador",
-     "momento": "2026-11-11T15:34:43",
+     "momento": "2026-11-17T23:53:09",
      "medicao": {
       "frases_proibidas": [],
       "numeros_fomezero": [],
@@ -263,8 +263,8 @@
       "frases_proibidas_brutas": []
      },
      "tempo_ms": 15,
-     "gravado_em": "2026-11-11",
-     "rotulo_simulado": "Resposta SIMULADA, gravada em 2026-11-11 pelo pipeline real (Qwen/Qwen2.5-7B-Instruct (4 bits NF4)); não é IA ao vivo."
+     "gravado_em": "2026-11-17",
+     "rotulo_simulado": "Resposta SIMULADA, gravada em 2026-11-17 pelo pipeline real (Qwen/Qwen2.5-7B-Instruct (4 bits NF4)); não é IA ao vivo."
     }
    }
   },
@@ -356,7 +356,7 @@
      },
      "id_pergunta": null,
      "perfil": "doador",
-     "momento": "2026-11-11T15:34:54",
+     "momento": "2026-11-17T23:53:22",
      "medicao": {
       "frases_proibidas": [],
       "numeros_fomezero": [],
@@ -370,9 +370,9 @@
       "citacoes_invalidas": [],
       "frases_proibidas_brutas": []
      },
-     "tempo_ms": 11503,
-     "gravado_em": "2026-11-11",
-     "rotulo_simulado": "Resposta SIMULADA, gravada em 2026-11-11 pelo pipeline real (Qwen/Qwen2.5-7B-Instruct (4 bits NF4)); não é IA ao vivo."
+     "tempo_ms": 13593,
+     "gravado_em": "2026-11-17",
+     "rotulo_simulado": "Resposta SIMULADA, gravada em 2026-11-17 pelo pipeline real (Qwen/Qwen2.5-7B-Instruct (4 bits NF4)); não é IA ao vivo."
     }
    }
   },
@@ -456,7 +456,7 @@
      },
      "id_pergunta": null,
      "perfil": "doador",
-     "momento": "2026-11-11T15:35:08",
+     "momento": "2026-11-17T23:53:38",
      "medicao": {
       "frases_proibidas": [],
       "numeros_fomezero": [],
@@ -469,9 +469,9 @@
       "citacoes_invalidas": [],
       "frases_proibidas_brutas": []
      },
-     "tempo_ms": 14096,
-     "gravado_em": "2026-11-11",
-     "rotulo_simulado": "Resposta SIMULADA, gravada em 2026-11-11 pelo pipeline real (Qwen/Qwen2.5-7B-Instruct (4 bits NF4)); não é IA ao vivo."
+     "tempo_ms": 16047,
+     "gravado_em": "2026-11-17",
+     "rotulo_simulado": "Resposta SIMULADA, gravada em 2026-11-17 pelo pipeline real (Qwen/Qwen2.5-7B-Instruct (4 bits NF4)); não é IA ao vivo."
     }
    }
   },
@@ -541,7 +541,7 @@
      },
      "id_pergunta": null,
      "perfil": "doador",
-     "momento": "2026-11-11T15:35:08",
+     "momento": "2026-11-17T23:53:38",
      "medicao": {
       "frases_proibidas": [],
       "numeros_fomezero": [],
@@ -551,9 +551,9 @@
       "citacoes_invalidas": [],
       "frases_proibidas_brutas": []
      },
-     "tempo_ms": 16,
-     "gravado_em": "2026-11-11",
-     "rotulo_simulado": "Resposta SIMULADA, gravada em 2026-11-11 pelo pipeline real (Qwen/Qwen2.5-7B-Instruct (4 bits NF4)); não é IA ao vivo."
+     "tempo_ms": 15,
+     "gravado_em": "2026-11-17",
+     "rotulo_simulado": "Resposta SIMULADA, gravada em 2026-11-17 pelo pipeline real (Qwen/Qwen2.5-7B-Instruct (4 bits NF4)); não é IA ao vivo."
     }
    }
   },
@@ -623,7 +623,7 @@
      },
      "id_pergunta": null,
      "perfil": "doador",
-     "momento": "2026-11-11T15:35:20",
+     "momento": "2026-11-17T23:53:51",
      "medicao": {
       "frases_proibidas": [],
       "numeros_fomezero": [],
@@ -633,9 +633,9 @@
       "citacoes_invalidas": [],
       "frases_proibidas_brutas": []
      },
-     "tempo_ms": 11369,
-     "gravado_em": "2026-11-11",
-     "rotulo_simulado": "Resposta SIMULADA, gravada em 2026-11-11 pelo pipeline real (Qwen/Qwen2.5-7B-Instruct (4 bits NF4)); não é IA ao vivo."
+     "tempo_ms": 12408,
+     "gravado_em": "2026-11-17",
+     "rotulo_simulado": "Resposta SIMULADA, gravada em 2026-11-17 pelo pipeline real (Qwen/Qwen2.5-7B-Instruct (4 bits NF4)); não é IA ao vivo."
     }
    }
   },
@@ -705,7 +705,7 @@
      },
      "id_pergunta": null,
      "perfil": "doador",
-     "momento": "2026-11-11T15:35:20",
+     "momento": "2026-11-17T23:53:51",
      "medicao": {
       "frases_proibidas": [],
       "numeros_fomezero": [],
@@ -716,8 +716,8 @@
       "frases_proibidas_brutas": []
      },
      "tempo_ms": 15,
-     "gravado_em": "2026-11-11",
-     "rotulo_simulado": "Resposta SIMULADA, gravada em 2026-11-11 pelo pipeline real (Qwen/Qwen2.5-7B-Instruct (4 bits NF4)); não é IA ao vivo."
+     "gravado_em": "2026-11-17",
+     "rotulo_simulado": "Resposta SIMULADA, gravada em 2026-11-17 pelo pipeline real (Qwen/Qwen2.5-7B-Instruct (4 bits NF4)); não é IA ao vivo."
     }
    }
   },
@@ -753,7 +753,7 @@
      },
      "id_pergunta": null,
      "perfil": "doador",
-     "momento": "2026-11-11T15:35:20",
+     "momento": "2026-11-17T23:53:51",
      "medicao": {
       "frases_proibidas": [],
       "numeros_fomezero": [],
@@ -766,8 +766,8 @@
       "frases_proibidas_brutas": []
      },
      "tempo_ms": 2,
-     "gravado_em": "2026-11-11",
-     "rotulo_simulado": "Resposta SIMULADA, gravada em 2026-11-11 pelo pipeline real (Qwen/Qwen2.5-7B-Instruct (4 bits NF4)); não é IA ao vivo."
+     "gravado_em": "2026-11-17",
+     "rotulo_simulado": "Resposta SIMULADA, gravada em 2026-11-17 pelo pipeline real (Qwen/Qwen2.5-7B-Instruct (4 bits NF4)); não é IA ao vivo."
     }
    }
   },
@@ -803,7 +803,7 @@
      },
      "id_pergunta": null,
      "perfil": "doador",
-     "momento": "2026-11-11T15:35:20",
+     "momento": "2026-11-17T23:53:51",
      "medicao": {
       "frases_proibidas": [],
       "numeros_fomezero": [],
@@ -815,9 +815,9 @@
       "citacoes_invalidas": [],
       "frases_proibidas_brutas": []
      },
-     "tempo_ms": 2,
-     "gravado_em": "2026-11-11",
-     "rotulo_simulado": "Resposta SIMULADA, gravada em 2026-11-11 pelo pipeline real (Qwen/Qwen2.5-7B-Instruct (4 bits NF4)); não é IA ao vivo."
+     "tempo_ms": 1,
+     "gravado_em": "2026-11-17",
+     "rotulo_simulado": "Resposta SIMULADA, gravada em 2026-11-17 pelo pipeline real (Qwen/Qwen2.5-7B-Instruct (4 bits NF4)); não é IA ao vivo."
     }
    }
   }

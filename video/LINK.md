@@ -1,9 +1,9 @@
 # Link do vídeo da GENAI
 
-`[PENDENTE: gravação]` Plataforma proposta: YouTube não listado (PEN-012, hipótese). Duração: até 5 minutos.
+Demonstração da aplicação e da sua contribuição para o FOMEZERO (YouTube, não listado).
 
 | Campo | Valor |
 |---|---|
-| Link | `[PENDENTE]` |
-| Data da gravação | `[PENDENTE]` |
-| Duração | `[PENDENTE]` |
+| Link | https://youtu.be/k2YepWTsgKo |
+| Duração | 5:11 (conferida na página do vídeo em 2026-11-18) |
+| Roteiro | `video/ROTEIRO.md` |

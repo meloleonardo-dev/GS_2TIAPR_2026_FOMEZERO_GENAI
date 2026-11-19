@@ -18,9 +18,18 @@ PASTA_GENAI = Path(os.environ.get("GENAI_PASTA", Path(__file__).resolve().parent
 #   local: 05_ENTREGAVEIS/PLN (irmã de 05_ENTREGAVEIS/GENAI)
 #   Colab: /content/drive/MyDrive/GS_FOMEZERO/PLN (as duas pastas copiadas para MyDrive/GS_FOMEZERO/)
 # A variável de ambiente GENAI_PASTA_PLN troca o caminho, se a pasta estiver em outro lugar.
+def _pasta_pln_local() -> Path:
+    # repositório individual (05_ENTREGAVEIS/PLN), repositório do grupo (genai/ e pln/ lado a lado) ou entrega com
+    # codigo/ (genai/codigo -> ../../pln): usa a primeira que tiver corpus/
+    for p in (PASTA_GENAI.parent / "PLN", PASTA_GENAI.parent / "pln", PASTA_GENAI.parents[1] / "pln"):
+        if (p / "corpus").is_dir():
+            return p
+    return PASTA_GENAI.parent / "PLN"
+
+
 PASTA_PLN = Path(os.environ.get(
     "GENAI_PASTA_PLN",
-    "/content/drive/MyDrive/GS_FOMEZERO/PLN" if EM_COLAB else PASTA_GENAI.parent / "PLN"))
+    "/content/drive/MyDrive/GS_FOMEZERO/PLN" if EM_COLAB else _pasta_pln_local()))
 PASTA_CORPUS_PLN = PASTA_PLN / "corpus"
 ARQ_MAPA_TRECHOS = PASTA_PLN / "saidas" / "mapa_trechos.jsonl"        # página por trecho (aprovado na DEC-015)
 ARQ_QA_CANDIDATOS = PASTA_PLN / "revisao" / "qa_candidatos.jsonl"     # indice_linha do trecho-ouro (T8)

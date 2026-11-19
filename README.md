@@ -107,7 +107,7 @@ Implementado e testado localmente (`evidencias/testes_locais_2026-11-10.txt`), e
 (DEC-032) e avaliado por um revisor humano (DEC-033). Resultados em `evidencias/EVIDENCIAS.md` e na documentação
 técnica. Prints da interface em `evidencias/prints/` (8 telas). Integrado ao portal do FOMEZERO (FEMD) pela tela
 "Tirar dúvidas com o assistente".
-Link do vídeo: `video/LINK.md` `[PENDENTE: gravação]`.
+Vídeo de demonstração: https://youtu.be/k2YepWTsgKo (também em `video/LINK.md`).
 
 ## Outros módulos do FOMEZERO (mesmo grupo)
 - PLN: Fábrica de Corpus (corpus de documentos oficiais sobre doação segura de alimentos): https://github.com/meloleonardo-dev/GS_2TIAPR_2026_FOMEZERO_PLN
